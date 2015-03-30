@@ -42,8 +42,9 @@
     }
     
     
-//    CGSize size = CGSizeMake(300, MAXFLOAT);
-//    NSDictionary *dic = [NSDictionary dictionarywithobj]
+    CGSize size = CGSizeMake(300, MAXFLOAT);
+    
+    NSDictionary *dic = [NSDictionary dictionarywithobj]
 //    CGSize actureSize = [self.contentlabel.text ];
 }
 @end
