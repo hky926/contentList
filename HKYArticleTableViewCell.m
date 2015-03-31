@@ -43,8 +43,15 @@
     
     
     CGSize size = CGSizeMake(300, MAXFLOAT);
+<<<<<<< HEAD
     
     [aricle.content boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:@""} context:nil];
     
+=======
+    CGSize labelSize = [aricle.content sizeWithFont:[UIFont systemFont constrainedToSize:size lineBreakMode:UILineBreakModeWordWrap]];
+    NSLog(@"%d %d",labelSize.with,labelSize.height);
+    NSDictionary *dic = [NSDictionary dictionarywithobj]
+//    CGSize actureSize = [self.contentlabel.text ];
+>>>>>>> 18b909e83a165928ef8ad23a8eb746944050f6d9
 }
 @end
