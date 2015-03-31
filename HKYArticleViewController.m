@@ -48,7 +48,6 @@
 {
     NSData *data =  [[NSUserDefaults standardUserDefaults] objectForKey:@"article"];
     NSArray *arr =   [NSKeyedUnarchiver unarchiveObjectWithData:data];
-    NSLog(@"%@",arr);
     _dataArray = [NSMutableArray arrayWithArray:arr];
 }
 -(void) loadData
@@ -69,7 +68,7 @@
 }
 -(void) upData:(NSNotification *)notification
 {
-    _dataArray = [[HKYDownloadManager sharManager] objectForKey:[NSString   stringWithFormat:@"%d",ARTICLE_TYPE]];
+    _dataArray = [[HKYDownloadManager sharManager] objectForKey:[NSNumber       numberWithInt:ARTICLE_TYPE]];
     [self.tableView reloadData];
     
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:_dataArray];

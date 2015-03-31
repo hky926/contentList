@@ -44,7 +44,7 @@
     
     CGSize size = CGSizeMake(300, MAXFLOAT);
     
-    NSDictionary *dic = [NSDictionary dictionarywithobj]
-//    CGSize actureSize = [self.contentlabel.text ];
+    [aricle.content boundingRectWithSize:size options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:@""} context:nil];
+    
 }
 @end

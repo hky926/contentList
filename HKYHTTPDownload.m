@@ -24,7 +24,7 @@
 }
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
-    NSLog(@"download Error");
+    
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
