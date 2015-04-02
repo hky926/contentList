@@ -49,7 +49,7 @@
     NSLog(@"%@",arr);
     CGSize labelSize = [aricle.content sizeWithFont:[UIFont systemFont constrainedToSize:size lineBreakMode:UILineBreakModeWordWrap]];
     NSLog(@"%d %d",labelSize.with,labelSize.height);
-//    NSDictionary *dic = [NSDictionary dictionarywithobj]
+    NSDictionary *dic = [NSDictionary dictionarywithobj]
 //    CGSize actureSize = [self.contentlabel.text ];
 }
 @end
