@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HKYAricle.h"
 
-@interface HKYArticleTableViewCell : UITableViewCell
+@interface HKYArticleTableViewCell : UITableViewCell<NSXMLParserDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *headImag;
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;

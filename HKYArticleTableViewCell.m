@@ -40,7 +40,7 @@
     }else{
      self.headImag.image = [UIImage imageNamed:@"default_pic"];
     }
-    
+
     
     CGSize size = CGSizeMake(300, MAXFLOAT);
     
